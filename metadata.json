@@ -1,0 +1,33 @@
+{
+  "author": "",
+  "checksums": {
+    "manifests\\init.pp": "ed04585ccc05da0e4f0f9434b9e35c6e",
+    "manifests\\debian.pp": "8a3e646319980356cee9514da8a21c9a",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "5f459996c7cb23d83f0f957f77a82011",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "manifests\\common.pp": "052edc7bf80c0e26b9995120956b5e33",
+    "manifests\\redhat.pp": "66198349a9ed0f356537f0fb98bbef35",
+    "Modulefile": "6d7a1dc9abd8f5d3cfc92bc31d202a28",
+    "README.markdown": "2ccbfe4d3fe1bc2aaa917657b4fa35b4"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/concat",
+      "version_requirement": "1.1.0-rc1"
+    },
+    {
+      "name": "stankevich/python",
+      "version_requirement": "1.7.1"
+    }
+  ],
+  "description": "",
+  "license": "",
+  "name": "puppet-oracleclient",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}
