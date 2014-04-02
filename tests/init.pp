@@ -1,3 +1,3 @@
 class {'oracleclient':
-  rpmurl => 'http://ladist.nerc-lancaster.ac.uk/apps/oracle/',
+  rpmurl => 'http://replace.me.with.a/valid/url',
 }

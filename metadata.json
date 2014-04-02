@@ -3,24 +3,25 @@
   "checksums": {
     "manifests\\init.pp": "22a1e3ba319f307eb43507ed6bba4d60",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "Modulefile": "47ab525a1f6931f47d2ea0ee75e091d3",
+    "LICENSE": "b39ca9d3e7e80dd37db7d1985b6b74c4",
     "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
     "manifests\\RedHat.pp": "edf43a3b5ba8e7bd4a943d6aac83bff1",
-    "tests\\init.pp": "f360bc62e0bd05459457274e0dec9be9",
-    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests\\init.pp": "fdd965ff45019e584b6b0d2c7bfc9546",
     "manifests\\common.pp": "a776258f5b8cae250b4078db2dd90132",
     "templates\\oracle.sh.erb": "b3e68f23834e8541b03a55bb7e11a39b",
     "manifests\\Debian.pp": "65b0086521625298e1ec8fd72003f4cc",
-    "Modulefile": "47ab525a1f6931f47d2ea0ee75e091d3",
-    "README.md": "2ccbfe4d3fe1bc2aaa917657b4fa35b4"
+    "README.md": "1a33a289d1f540713cbf343158c179ec"
   },
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": "4.1.0"
+      "version_requirement": ">= 4.1.0"
     },
     {
       "name": "puppetlabs/apt",
-      "version_requirement": "1.4.2"
+      "version_requirement": ">= 1.4.0"
     }
   ],
   "description": "",
