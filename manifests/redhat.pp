@@ -10,7 +10,7 @@
 #
 # Sample Usage:
 #
-class oracleclient::RedHat ()
+class oracleclient::redhat ()
   inherits oracleclient::common {
 
   # Make sure we have a URL to install rpm's from
