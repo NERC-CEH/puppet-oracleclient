@@ -9,5 +9,6 @@ project_page ''
 
 ## Add dependencies, if any:
 # dependency 'username/name', '>= 1.2.0'
-dependency 'puppetlabs-concat', '1.1.0-rc1'
-dependency 'stankevich/python', '1.7.1'
+dependency 'puppetlabs/stdlib', '4.1.0'
+dependency 'puppetlabs/apt', '1.4.2'
+
