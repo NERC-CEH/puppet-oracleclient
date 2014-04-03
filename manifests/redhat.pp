@@ -26,16 +26,16 @@ class oracleclient::redhat ()
   package {"oracle-instantclient${oracleclient::version}-basic":
     ensure    => installed,
     provider  => 'rpm',
-    source    => "${oracleclient::rpmurl}oracle-instantclient${oracleclient::version}-basic*.${arch}.rpm",
+    source    => "${oracleclient::rpmurl}oracle-instantclient${oracleclient::version}-basic-${oracleclient::fullversion}.${arch}.rpm",
   } ->
   package {"oracle-instantclient${oracleclient::version}-sqlplus":
     ensure    => installed,
     provider  => 'rpm',
-    source    => "${oracleclient::rpmurl}oracle-instantclient${oracleclient::version}-sqlplus*.${arch}.rpm",
+    source    => "${oracleclient::rpmurl}oracle-instantclient${oracleclient::version}-sqlplus-${oracleclient::fullversion}.${arch}.rpm",
   } ->
   package {"oracle-instantclient${oracleclient::version}-devel":
     ensure    => installed,
     provider  => 'rpm',
-    source    => "${oracleclient::rpmurl}oracle-instantclient${oracleclient::version}-devel*.${arch}.rpm",
+    source    => "${oracleclient::rpmurl}oracle-instantclient${oracleclient::version}-devel-${oracleclient::fullversion}.${arch}.rpm",
   }  
 }

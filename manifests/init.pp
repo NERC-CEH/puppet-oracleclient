@@ -20,6 +20,7 @@
 #
 class oracleclient (
   $version = '11.2',
+  $fullversion = '11.2.0.3.0-1',
   $rpmurl = undef,
   ) {
     
