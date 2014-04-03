@@ -15,8 +15,8 @@ class oracleclient::common () {
   $oracle_home = "/usr/lib/oracle/${oracleclient::version}"
   
   $client_dir = $::architecture ? {
-    'amd64'   => 'client64',
-    'x86'     => 'client',
+    /amd64|x86_64/  => 'client64',
+    'x86'           => 'client',
   }
   
   $libaio_pkg = $::osfamily ? {

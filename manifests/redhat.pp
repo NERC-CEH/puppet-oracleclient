@@ -19,8 +19,8 @@ class oracleclient::redhat ()
   }
 
   $arch = $::architecture ? {
-    'amd64'   => 'x86_64',
-    'x86'     => 'i386',
+    /amd64|x86_64/  => 'x86_64',
+    'x86'           => 'i386',
   }
 
   package {"oracle-instantclient${oracleclient::version}-basic":
