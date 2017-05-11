@@ -31,6 +31,6 @@ class oracleclient::debian ()
     owner   => root,
     group   => root,
     content => "${oracle_home}/${client_dir}/lib",
-    mode    => 644,
+    mode    => '0644',
   }    
 }

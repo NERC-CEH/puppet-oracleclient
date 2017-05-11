@@ -33,6 +33,6 @@ class oracleclient::common () {
     owner   => root,
     group   => root,
     content => template("oracleclient/oracle.sh.erb"),
-    mode    => 644,
+    mode    => '0644',
   }    
 }
