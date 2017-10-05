@@ -1,6 +1,6 @@
 # This file is managed by the puppet oracle client module
 # Editing is futile!
 export ORACLE_VERSION="<%= scope['oracleclient::version'] %>"
-export ORACLE_HOME="/usr/lib/oracle/$ORACLE_VERSION/<%= scope['oracleclient::client_dir'] %>"
+export ORACLE_HOME="/usr/lib/oracle/$ORACLE_VERSION/<%= scope['client_dir'] %>"
 export PATH=$PATH:"$ORACLE_HOME/bin"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$ORACLE_HOME/lib"
